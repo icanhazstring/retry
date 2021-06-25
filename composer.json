@@ -1,0 +1,29 @@
+{
+    "name": "icanhazstring/retry",
+    "description": "Small dependency-less library to retry failing operations",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^0.12.90"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/retry.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "icanhazstring\\Retry\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Frömer",
+            "email": "andreas.froemer@check24.de"
+        }
+    ]
+}
